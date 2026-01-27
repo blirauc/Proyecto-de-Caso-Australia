@@ -33,6 +33,7 @@ Se evaluaron distintos modelos de clasificación para identificar el enfoque
 más efectivo en la predicción de variables climáticas.
 
 ## Autores
-Bastián Lira  
-Wladimir Cordova
+Bastián Lira.  
+Wladimir Cordova.
+
 Ingeniero en Informática – Especialización en Ciencia de Datos
