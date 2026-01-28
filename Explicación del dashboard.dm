@@ -1,4 +1,4 @@
-#🌦️ Weather Australia Dashboard – Análisis Climático con Power BI
+# Weather Australia Dashboard – Análisis Climático con Power BI
 ##Descripción del Proyecto
 
 Este proyecto consiste en el desarrollo de un dashboard interactivo en Power BI orientado al análisis de variables climáticas en distintas ciudades de Australia.
