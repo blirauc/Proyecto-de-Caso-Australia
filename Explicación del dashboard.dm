@@ -1,103 +1,127 @@
-# Weather Australia Dashboard – Análisis Climático con Power BI
-##Descripción del Proyecto
+# 🌦️ Weather Australia Dashboard – Análisis Climático con Power BI
 
-Este proyecto consiste en el desarrollo de un dashboard interactivo en Power BI orientado al análisis de variables climáticas en distintas ciudades de Australia.
+##  Descripción del Proyecto
+
+Este proyecto consiste en el desarrollo de un **dashboard interactivo en Power BI** orientado al análisis de variables climáticas en distintas ciudades de Australia.  
 El objetivo principal es identificar patrones, relaciones e indicadores clave (KPIs) asociados a precipitación, humedad, presión atmosférica, nubosidad, viento y horas de sol, utilizando datos históricos.
 
-El proyecto está enfocado en análisis exploratorio de datos climáticos, visualización y generación de insights relevantes.
+El proyecto está enfocado en **análisis exploratorio de datos climáticos**, visualización y generación de insights relevantes.
 
-## Objetivos del Análisis
+---
 
-Identificar ciudades con mayores niveles de precipitación diaria
+##  Objetivos del Análisis
 
-Analizar el promedio de humedad registrada
+- Identificar ciudades con mayores niveles de precipitación diaria  
+- Analizar el promedio de humedad registrada  
+- Determinar ciudades con mayor cantidad de horas de sol  
+- Detectar fechas con eventos de precipitación extrema  
+- Evaluar la probabilidad de lluvia después de un día soleado  
+- Analizar relaciones entre variables climáticas clave  
 
-Determinar ciudades con mayor cantidad de horas de sol
+---
 
-Detectar fechas con eventos de precipitación extrema
+##  KPIs Definidos
 
-Evaluar la probabilidad de lluvia después de un día soleado
+- ¿En qué ciudad caen más milímetros de lluvia al día?  
+- ¿Cuál es el mayor promedio de humedad registrado?  
+- ¿En qué ciudad se registran más horas de sol al día?  
+- ¿En qué fechas se presentan las mayores precipitaciones?  
+- ¿En qué ciudad es más probable que llueva después de un día soleado?  
 
-Analizar relaciones entre variables climáticas clave
+---
 
-## KPIs Definidos
+##  Contenido del Repositorio
 
-¿En qué ciudad caen más milímetros de lluvia al día?
+- `weather_australia_dashboard.pbix` → Archivo principal del dashboard en Power BI  
+- Carpeta `/dashboard` → Capturas de los principales análisis visuales  
 
-¿Cuál es el mayor promedio de humedad registrado?
+---
 
-¿En qué ciudad se registran más horas de sol al día?
+##  Visualizaciones y Análisis
 
-¿En qué fechas se presentan las mayores precipitaciones?
+###  Influencia de Variables Climáticas
+![Key Influencers](dashboard/key_influencers_clima_por_ciudad.png)
 
-¿En qué ciudad es más probable que llueva después de un día soleado?
-
-## Contenido del Repositorio
-
-weather_australia_dashboard.pbix → Archivo principal del dashboard en Power BI
-
-Carpeta /dashboard con capturas de los principales análisis visuales
-
-##Visualizaciones y Análisis
--Influencia de Variables Climáticas
-
-Este visual identifica las variables climáticas que más influyen en el comportamiento general del clima por ciudad.
+Este visual identifica las variables climáticas que más influyen en el comportamiento general del clima por ciudad.  
 Permite comprender qué factores explican las diferencias observadas entre regiones, aportando contexto a los KPIs de precipitación, humedad y horas de sol.
 
--Ranking de Factores Climáticos
+---
 
-Ranking comparativo de variables climáticas según su nivel de impacto.
+###  Ranking de Factores Climáticos
+![Ranking Factores](dashboard/ranking_factores_climaticos.png)
+
+Ranking comparativo de variables climáticas según su nivel de impacto.  
 Este análisis permite priorizar qué factores tienen mayor peso en el comportamiento climático observado.
 
--Cobertura de Nubes por Hora, Mes y Ciudad
+---
 
-Visualización del promedio de cobertura de nubes a las 9 AM y 3 PM, segmentado por mes y ciudad.
+###  Cobertura de Nubes por Hora, Mes y Ciudad
+![Cobertura de Nubes](dashboard/cobertura_nubes_por_hora_mes_ciudad.png)
+
+Visualización del promedio de cobertura de nubes a las **9 AM y 3 PM**, segmentado por mes y ciudad.  
 Permite analizar patrones estacionales y diferencias horarias que influyen directamente en las horas de sol registradas.
 
--Presión Atmosférica (9 AM vs 3 PM)
+---
 
-Este gráfico muestra la evolución del promedio de presión atmosférica a las 9 AM y 3 PM a lo largo del año.
+###  Presión Atmosférica (9 AM vs 3 PM)
+![Presión Atmosférica](dashboard/promedio_presion_atmosferica_9am_3pm.png)
+
+Este gráfico muestra la evolución del promedio de presión atmosférica a las 9 AM y 3 PM a lo largo del año.  
 La disminución de presión durante la tarde se asocia a condiciones de mayor inestabilidad atmosférica, lo que permite contextualizar eventos de lluvia intensa.
 
--Nubosidad Promedio (9 AM vs 3 PM)
+---
 
-Análisis del comportamiento de la nubosidad durante el día.
+###  Nubosidad Promedio (9 AM vs 3 PM)
+![Nubosidad](dashboard/promedio_nubosidad_9am_3pm.png)
+
+Análisis del comportamiento de la nubosidad durante el día.  
 Se observa un aumento de la cobertura de nubes en la tarde, lo que ayuda a explicar la variación diaria en las horas de sol y la formación de precipitaciones.
 
--Humedad Promedio (9 AM vs 3 PM)
+---
 
-Este gráfico muestra el promedio de humedad relativa por mes y año.
+###  Humedad Promedio (9 AM vs 3 PM)
+![Humedad](dashboard/promedio_humedad_9am_3pm.png)
+
+Este gráfico muestra el promedio de humedad relativa por mes y año.  
 La humedad suele ser mayor durante la mañana, influyendo directamente en la probabilidad de lluvia y en la persistencia de condiciones climáticas inestables.
 
--Velocidad del Viento (9 AM vs 3 PM)
+---
 
-Comparación de la velocidad promedio del viento entre la mañana y la tarde.
+###  Velocidad del Viento (9 AM vs 3 PM)
+![Velocidad del Viento](dashboard/promedio_velocidad_viento_9am_3pm.png)
+
+Comparación de la velocidad promedio del viento entre la mañana y la tarde.  
 El incremento del viento durante la tarde está asociado a gradientes térmicos y sistemas de baja presión.
 
--Relación entre Lluvia y Presión Atmosférica
+---
 
-Visualización de la relación diaria entre precipitación y presión atmosférica.
+###  Relación entre Lluvia y Presión Atmosférica
+![Lluvia vs Presión](dashboard/relacion_lluvia_presion_diaria.png)
+
+Visualización de la relación diaria entre precipitación y presión atmosférica.  
 Se observa una relación inversa, donde descensos de presión suelen coincidir con aumentos en la precipitación.
 
--Relación entre Viento y Precipitación
+---
 
-Este gráfico analiza la relación entre la velocidad promedio del viento y la cantidad promedio de lluvia.
+###  Relación entre Viento y Precipitación
+![Viento vs Lluvia](dashboard/relacion_viento_lluvia_promedio.png)
+
+Este gráfico analiza la relación entre la velocidad promedio del viento y la cantidad promedio de lluvia.  
 Permite identificar patrones de coexistencia entre viento y precipitación en distintas condiciones climáticas.
 
-##Conclusiones Principales
+---
 
-Las variaciones de presión atmosférica están fuertemente relacionadas con eventos de precipitación.
+##  Conclusiones Principales
 
-La nubosidad y la humedad presentan patrones horarios claros que influyen en las horas de sol.
+- Las variaciones de presión atmosférica están fuertemente relacionadas con eventos de precipitación.  
+- La nubosidad y la humedad presentan patrones horarios claros que influyen en las horas de sol.  
+- La velocidad del viento tiende a aumentar en escenarios de mayor inestabilidad climática.  
+- El uso de KPIs permite transformar datos climáticos complejos en **insights accionables**.  
 
-La velocidad del viento tiende a aumentar en escenarios de mayor inestabilidad climática.
+---
 
-El uso de KPIs permite transformar datos climáticos complejos en insights accionables.
+##  Herramientas Utilizadas
 
-##Herramientas Utilizadas
-
-Power BI Desktop
-
-Dataset climático de Australia
-
-Visualizaciones avanzadas (Key Influencers, series temporales, comparativos)
+- Power BI Desktop  
+- Dataset climático de Australia  
+- Visualizaciones avanzadas (Key Influencers, series temporales y comparativos)  
